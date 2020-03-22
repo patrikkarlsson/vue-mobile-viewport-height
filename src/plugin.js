@@ -8,7 +8,7 @@ export default ({ Vue, debounce }) => {
     Vue.mixin({
       mounted: () => {
         const calculateViewport = () => {
-          let vh = window.innerHeight * 0.01
+          const vh = window.innerHeight * 0.01
           document.documentElement.style.setProperty('--vh', `${vh}px`)
         }
         if (typeof debounce === 'function') {
