@@ -1,6 +1,6 @@
 {
   "name": "vue-mobile-viewport-height",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vue plugin to calculate viewport height for mobile browsers",
   "main": "index.js",
   "scripts": {
