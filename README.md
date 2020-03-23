@@ -28,6 +28,6 @@ Vue.use(
 @import "~vue-mobile-viewport-height/src/mobile-viewport-height.scss"
 
 .app {
-  @include mobile-viewport-height()
+  @include mobile-viewport-height();
 }
 ```
